@@ -1,0 +1,1095 @@
+{
+  "Id": {
+    "type": "numerical",
+    "reference_mean": 730.5,
+    "current_mean": 2190.0,
+    "drift": 1459.5,
+    "severity": "HIGH"
+  },
+  "MSSubClass": {
+    "type": "numerical",
+    "reference_mean": 56.897260273972606,
+    "current_mean": 57.37834132967786,
+    "drift": 0.4810810557052534,
+    "severity": "LOW"
+  },
+  "MSZoning": {
+    "type": "categorical",
+    "reference_distribution": {
+      "RL": 0.7883561643835616,
+      "RM": 0.14931506849315068,
+      "FV": 0.04452054794520548,
+      "RH": 0.010958904109589041,
+      "C (all)": 0.00684931506849315
+    },
+    "current_distribution": {
+      "RL": 0.7656357388316152,
+      "RM": 0.1663230240549828,
+      "FV": 0.05085910652920962,
+      "C (all)": 0.010309278350515464,
+      "RH": 0.006872852233676976
+    }
+  },
+  "LotFrontage": {
+    "type": "numerical",
+    "reference_mean": 70.04995836802665,
+    "current_mean": 68.58035714285714,
+    "drift": 1.4696012251695123,
+    "severity": "LOW"
+  },
+  "LotArea": {
+    "type": "numerical",
+    "reference_mean": 10516.828082191782,
+    "current_mean": 9819.161069225496,
+    "drift": 697.6670129662853,
+    "severity": "HIGH"
+  },
+  "Street": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Pave": 0.9958904109589041,
+      "Grvl": 0.00410958904109589
+    },
+    "current_distribution": {
+      "Pave": 0.995887594242632,
+      "Grvl": 0.00411240575736806
+    }
+  },
+  "Alley": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Grvl": 0.5494505494505495,
+      "Pave": 0.45054945054945056
+    },
+    "current_distribution": {
+      "Grvl": 0.6542056074766355,
+      "Pave": 0.34579439252336447
+    }
+  },
+  "LotShape": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Reg": 0.6335616438356164,
+      "IR1": 0.3315068493150685,
+      "IR2": 0.028082191780821917,
+      "IR3": 0.00684931506849315
+    },
+    "current_distribution": {
+      "Reg": 0.6401644962302947,
+      "IR1": 0.3317340644276902,
+      "IR2": 0.023989033584647018,
+      "IR3": 0.00411240575736806
+    }
+  },
+  "LandContour": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Lvl": 0.897945205479452,
+      "Bnk": 0.04315068493150685,
+      "HLS": 0.03424657534246575,
+      "Low": 0.024657534246575342
+    },
+    "current_distribution": {
+      "Lvl": 0.8985606579849211,
+      "HLS": 0.047978067169294036,
+      "Bnk": 0.037011651816312545,
+      "Low": 0.01644962302947224
+    }
+  },
+  "Utilities": {
+    "type": "categorical",
+    "reference_distribution": {
+      "AllPub": 0.9993150684931507,
+      "NoSeWa": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "AllPub": 1.0
+    }
+  },
+  "LotConfig": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Inside": 0.7205479452054795,
+      "Corner": 0.18013698630136987,
+      "CulDSac": 0.06438356164383562,
+      "FR2": 0.03219178082191781,
+      "FR3": 0.0027397260273972603
+    },
+    "current_distribution": {
+      "Inside": 0.7409184372858122,
+      "Corner": 0.16997943797121315,
+      "CulDSac": 0.05620287868403016,
+      "FR2": 0.02604523646333105,
+      "FR3": 0.006854009595613434
+    }
+  },
+  "LandSlope": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Gtl": 0.9465753424657535,
+      "Mod": 0.04452054794520548,
+      "Sev": 0.008904109589041096
+    },
+    "current_distribution": {
+      "Gtl": 0.9568197395476353,
+      "Mod": 0.0411240575736806,
+      "Sev": 0.00205620287868403
+    }
+  },
+  "Neighborhood": {
+    "type": "categorical",
+    "reference_distribution": {
+      "NAmes": 0.1541095890410959,
+      "CollgCr": 0.10273972602739725,
+      "OldTown": 0.0773972602739726,
+      "Edwards": 0.0684931506849315,
+      "Somerst": 0.0589041095890411,
+      "Gilbert": 0.05410958904109589,
+      "NridgHt": 0.05273972602739726,
+      "Sawyer": 0.050684931506849315,
+      "NWAmes": 0.05,
+      "SawyerW": 0.04041095890410959,
+      "BrkSide": 0.03972602739726028,
+      "Crawfor": 0.03493150684931507,
+      "Mitchel": 0.03356164383561644,
+      "NoRidge": 0.028082191780821917,
+      "Timber": 0.026027397260273973,
+      "IDOTRR": 0.025342465753424658,
+      "ClearCr": 0.019178082191780823,
+      "StoneBr": 0.017123287671232876,
+      "SWISU": 0.017123287671232876,
+      "MeadowV": 0.011643835616438357,
+      "Blmngtn": 0.011643835616438357,
+      "BrDale": 0.010958904109589041,
+      "Veenker": 0.007534246575342466,
+      "NPkVill": 0.0061643835616438354,
+      "Blueste": 0.0013698630136986301
+    },
+    "current_distribution": {
+      "NAmes": 0.14941740918437285,
+      "OldTown": 0.08636052090472926,
+      "CollgCr": 0.08019191226867718,
+      "Somerst": 0.06579849211788896,
+      "Edwards": 0.06442769019876628,
+      "NridgHt": 0.06100068540095956,
+      "Gilbert": 0.05894448252227553,
+      "Sawyer": 0.05277587388622344,
+      "SawyerW": 0.045236463331048665,
+      "Mitchel": 0.04455106237148732,
+      "NWAmes": 0.039753255654557916,
+      "IDOTRR": 0.03838245373543523,
+      "Crawfor": 0.03564084989718986,
+      "BrkSide": 0.03427004797806717,
+      "Timber": 0.023303632625085675,
+      "NoRidge": 0.0205620287868403,
+      "StoneBr": 0.01782042494859493,
+      "SWISU": 0.015764222069910898,
+      "MeadowV": 0.013708019191226868,
+      "ClearCr": 0.010966415352981495,
+      "BrDale": 0.009595613433858808,
+      "NPkVill": 0.009595613433858808,
+      "Veenker": 0.008910212474297465,
+      "Blmngtn": 0.0075394105551747775,
+      "Blueste": 0.0054832076764907475
+    }
+  },
+  "Condition1": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Norm": 0.863013698630137,
+      "Feedr": 0.05547945205479452,
+      "Artery": 0.03287671232876712,
+      "RRAn": 0.01780821917808219,
+      "PosN": 0.013013698630136987,
+      "RRAe": 0.007534246575342466,
+      "PosA": 0.005479452054794521,
+      "RRNn": 0.003424657534246575,
+      "RRNe": 0.0013698630136986301
+    },
+    "current_distribution": {
+      "Norm": 0.8574366004112406,
+      "Feedr": 0.0568882796435915,
+      "Artery": 0.03015764222069911,
+      "RRAn": 0.01644962302947224,
+      "PosN": 0.013708019191226868,
+      "RRAe": 0.011651816312542838,
+      "PosA": 0.00822481151473612,
+      "RRNe": 0.0027416038382453737,
+      "RRNn": 0.0027416038382453737
+    }
+  },
+  "Condition2": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Norm": 0.9897260273972602,
+      "Feedr": 0.00410958904109589,
+      "Artery": 0.0013698630136986301,
+      "RRNn": 0.0013698630136986301,
+      "PosN": 0.0013698630136986301,
+      "PosA": 0.0006849315068493151,
+      "RRAn": 0.0006849315068493151,
+      "RRAe": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "Norm": 0.9897189856065799,
+      "Feedr": 0.004797806716929404,
+      "PosA": 0.00205620287868403,
+      "Artery": 0.00205620287868403,
+      "PosN": 0.0013708019191226869
+    }
+  },
+  "BldgType": {
+    "type": "categorical",
+    "reference_distribution": {
+      "1Fam": 0.8356164383561644,
+      "TwnhsE": 0.07808219178082192,
+      "Duplex": 0.03561643835616438,
+      "Twnhs": 0.02945205479452055,
+      "2fmCon": 0.021232876712328767
+    },
+    "current_distribution": {
+      "1Fam": 0.8259081562714188,
+      "TwnhsE": 0.0774503084304318,
+      "Duplex": 0.03906785469499657,
+      "Twnhs": 0.0363262508567512,
+      "2fmCon": 0.021247429746401644
+    }
+  },
+  "HouseStyle": {
+    "type": "categorical",
+    "reference_distribution": {
+      "1Story": 0.49726027397260275,
+      "2Story": 0.3047945205479452,
+      "1.5Fin": 0.10547945205479452,
+      "SLvl": 0.04452054794520548,
+      "SFoyer": 0.025342465753424658,
+      "1.5Unf": 0.009589041095890411,
+      "2.5Unf": 0.007534246575342466,
+      "2.5Fin": 0.005479452054794521
+    },
+    "current_distribution": {
+      "1Story": 0.5106237148732008,
+      "2Story": 0.29266620973269364,
+      "1.5Fin": 0.10966415352981494,
+      "SLvl": 0.04318026045236463,
+      "SFoyer": 0.031528444139821796,
+      "2.5Unf": 0.008910212474297465,
+      "1.5Unf": 0.003427004797806717
+    }
+  },
+  "OverallQual": {
+    "type": "numerical",
+    "reference_mean": 6.0993150684931505,
+    "current_mean": 6.078821110349555,
+    "drift": 0.02049395814359567,
+    "severity": "LOW"
+  },
+  "OverallCond": {
+    "type": "numerical",
+    "reference_mean": 5.575342465753424,
+    "current_mean": 5.5538039753255655,
+    "drift": 0.021538490427858825,
+    "severity": "LOW"
+  },
+  "YearBuilt": {
+    "type": "numerical",
+    "reference_mean": 1971.267808219178,
+    "current_mean": 1971.357779300891,
+    "drift": 0.08997108171297441,
+    "severity": "LOW"
+  },
+  "YearRemodAdd": {
+    "type": "numerical",
+    "reference_mean": 1984.8657534246574,
+    "current_mean": 1983.6627827278958,
+    "drift": 1.2029706967616676,
+    "severity": "LOW"
+  },
+  "RoofStyle": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Gable": 0.7815068493150685,
+      "Hip": 0.1958904109589041,
+      "Flat": 0.008904109589041096,
+      "Gambrel": 0.007534246575342466,
+      "Mansard": 0.004794520547945206,
+      "Shed": 0.0013698630136986301
+    },
+    "current_distribution": {
+      "Gable": 0.8012337217272104,
+      "Hip": 0.181631254283756,
+      "Gambrel": 0.0075394105551747775,
+      "Flat": 0.004797806716929404,
+      "Mansard": 0.0027416038382453737,
+      "Shed": 0.00205620287868403
+    }
+  },
+  "RoofMatl": {
+    "type": "categorical",
+    "reference_distribution": {
+      "CompShg": 0.9821917808219178,
+      "Tar&Grv": 0.007534246575342466,
+      "WdShngl": 0.00410958904109589,
+      "WdShake": 0.003424657534246575,
+      "Metal": 0.0006849315068493151,
+      "Membran": 0.0006849315068493151,
+      "Roll": 0.0006849315068493151,
+      "ClyTile": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "CompShg": 0.9883481836874571,
+      "Tar&Grv": 0.00822481151473612,
+      "WdShake": 0.0027416038382453737,
+      "WdShngl": 0.0006854009595613434
+    }
+  },
+  "Exterior1st": {
+    "type": "categorical",
+    "reference_distribution": {
+      "VinylSd": 0.3527397260273973,
+      "HdBoard": 0.15205479452054796,
+      "MetalSd": 0.1506849315068493,
+      "Wd Sdng": 0.1410958904109589,
+      "Plywood": 0.07397260273972603,
+      "CemntBd": 0.04178082191780822,
+      "BrkFace": 0.03424657534246575,
+      "WdShing": 0.01780821917808219,
+      "Stucco": 0.017123287671232876,
+      "AsbShng": 0.0136986301369863,
+      "BrkComm": 0.0013698630136986301,
+      "Stone": 0.0013698630136986301,
+      "AsphShn": 0.0006849315068493151,
+      "ImStucc": 0.0006849315068493151,
+      "CBlock": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "VinylSd": 0.3497942386831276,
+      "MetalSd": 0.15775034293552812,
+      "HdBoard": 0.15089163237311384,
+      "Wd Sdng": 0.14060356652949246,
+      "Plywood": 0.0775034293552812,
+      "CemntBd": 0.04458161865569273,
+      "BrkFace": 0.025377229080932786,
+      "WdShing": 0.0205761316872428,
+      "AsbShng": 0.01646090534979424,
+      "Stucco": 0.012345679012345678,
+      "BrkComm": 0.0027434842249657062,
+      "AsphShn": 0.0006858710562414266,
+      "CBlock": 0.0006858710562414266
+    }
+  },
+  "Exterior2nd": {
+    "type": "categorical",
+    "reference_distribution": {
+      "VinylSd": 0.3452054794520548,
+      "MetalSd": 0.14657534246575343,
+      "HdBoard": 0.14178082191780822,
+      "Wd Sdng": 0.13493150684931507,
+      "Plywood": 0.09726027397260274,
+      "CmentBd": 0.0410958904109589,
+      "Wd Shng": 0.026027397260273973,
+      "Stucco": 0.01780821917808219,
+      "BrkFace": 0.017123287671232876,
+      "AsbShng": 0.0136986301369863,
+      "ImStucc": 0.00684931506849315,
+      "Brk Cmn": 0.004794520547945206,
+      "Stone": 0.003424657534246575,
+      "AsphShn": 0.002054794520547945,
+      "Other": 0.0006849315068493151,
+      "CBlock": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "VinylSd": 0.3497942386831276,
+      "MetalSd": 0.1598079561042524,
+      "HdBoard": 0.1364883401920439,
+      "Wd Sdng": 0.13305898491083676,
+      "Plywood": 0.0877914951989026,
+      "CmentBd": 0.04526748971193416,
+      "Wd Shng": 0.029492455418381344,
+      "BrkFace": 0.015089163237311385,
+      "Stucco": 0.01440329218106996,
+      "AsbShng": 0.012345679012345678,
+      "Brk Cmn": 0.0102880658436214,
+      "ImStucc": 0.003429355281207133,
+      "CBlock": 0.0013717421124828531,
+      "AsphShn": 0.0006858710562414266,
+      "Stone": 0.0006858710562414266
+    }
+  },
+  "MasVnrType": {
+    "type": "categorical",
+    "reference_distribution": {
+      "BrkFace": 0.7568027210884354,
+      "Stone": 0.21768707482993196,
+      "BrkCmn": 0.025510204081632654
+    },
+    "current_distribution": {
+      "BrkFace": 0.768141592920354,
+      "Stone": 0.21415929203539824,
+      "BrkCmn": 0.017699115044247787
+    }
+  },
+  "MasVnrArea": {
+    "type": "numerical",
+    "reference_mean": 103.68526170798899,
+    "current_mean": 100.70914127423822,
+    "drift": 2.976120433750765,
+    "severity": "LOW"
+  },
+  "ExterQual": {
+    "type": "categorical",
+    "reference_distribution": {
+      "TA": 0.6205479452054794,
+      "Gd": 0.33424657534246577,
+      "Ex": 0.03561643835616438,
+      "Fa": 0.009589041095890411
+    },
+    "current_distribution": {
+      "TA": 0.6113776559287183,
+      "Gd": 0.3365318711446196,
+      "Ex": 0.03769705277587389,
+      "Fa": 0.01439342015078821
+    }
+  },
+  "ExterCond": {
+    "type": "categorical",
+    "reference_distribution": {
+      "TA": 0.8780821917808219,
+      "Gd": 0.1,
+      "Fa": 0.019178082191780823,
+      "Ex": 0.002054794520547945,
+      "Po": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "TA": 0.8608636052090473,
+      "Gd": 0.10486634681288554,
+      "Fa": 0.026730637422892393,
+      "Ex": 0.00616860863605209,
+      "Po": 0.0013708019191226869
+    }
+  },
+  "Foundation": {
+    "type": "categorical",
+    "reference_distribution": {
+      "PConc": 0.44315068493150683,
+      "CBlock": 0.43424657534246575,
+      "BrkTil": 0.1,
+      "Slab": 0.01643835616438356,
+      "Stone": 0.00410958904109589,
+      "Wood": 0.002054794520547945
+    },
+    "current_distribution": {
+      "PConc": 0.453050034270048,
+      "CBlock": 0.4119259766963674,
+      "BrkTil": 0.11309115832762166,
+      "Slab": 0.017135023989033583,
+      "Stone": 0.003427004797806717,
+      "Wood": 0.0013708019191226869
+    }
+  },
+  "BsmtQual": {
+    "type": "categorical",
+    "reference_distribution": {
+      "TA": 0.4560787069571328,
+      "Gd": 0.4342937456078707,
+      "Ex": 0.08503162333099086,
+      "Fa": 0.024595924104005622
+    },
+    "current_distribution": {
+      "TA": 0.4480565371024735,
+      "Gd": 0.4176678445229682,
+      "Ex": 0.09681978798586573,
+      "Fa": 0.03745583038869258
+    }
+  },
+  "BsmtCond": {
+    "type": "categorical",
+    "reference_distribution": {
+      "TA": 0.921293042867182,
+      "Gd": 0.04567814476458187,
+      "Fa": 0.03162333099086437,
+      "Po": 0.0014054813773717498
+    },
+    "current_distribution": {
+      "TA": 0.9158415841584159,
+      "Fa": 0.04172560113154172,
+      "Gd": 0.04031117397454031,
+      "Po": 0.0021216407355021216
+    }
+  },
+  "BsmtExposure": {
+    "type": "categorical",
+    "reference_distribution": {
+      "No": 0.670182841068917,
+      "Av": 0.15541490857946555,
+      "Gd": 0.09423347398030943,
+      "Mn": 0.08016877637130802
+    },
+    "current_distribution": {
+      "No": 0.6720848056537102,
+      "Av": 0.1392226148409894,
+      "Gd": 0.10035335689045936,
+      "Mn": 0.08833922261484099
+    }
+  },
+  "BsmtFinType1": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Unf": 0.3021784961349262,
+      "GLQ": 0.2937456078706957,
+      "ALQ": 0.15460295151089248,
+      "BLQ": 0.10400562192550948,
+      "Rec": 0.09346451159522136,
+      "LwQ": 0.05200281096275474
+    },
+    "current_distribution": {
+      "GLQ": 0.3041637261820748,
+      "Unf": 0.29710656316160905,
+      "ALQ": 0.14749470712773466,
+      "Rec": 0.10938602681721948,
+      "BLQ": 0.08539167254763586,
+      "LwQ": 0.056457304163726185
+    }
+  },
+  "BsmtFinSF1": {
+    "type": "numerical",
+    "reference_mean": 443.6397260273973,
+    "current_mean": 439.2037037037037,
+    "drift": 4.436022323693578,
+    "severity": "LOW"
+  },
+  "BsmtFinType2": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Unf": 0.8832630098452883,
+      "Rec": 0.0379746835443038,
+      "LwQ": 0.03234880450070324,
+      "BLQ": 0.023206751054852322,
+      "ALQ": 0.013361462728551337,
+      "GLQ": 0.009845288326300985
+    },
+    "current_distribution": {
+      "Unf": 0.8729710656316161,
+      "Rec": 0.03599153140437544,
+      "LwQ": 0.02893436838390967,
+      "BLQ": 0.024700070571630206,
+      "ALQ": 0.02328863796753705,
+      "GLQ": 0.014114326040931546
+    }
+  },
+  "BsmtFinSF2": {
+    "type": "numerical",
+    "reference_mean": 46.54931506849315,
+    "current_mean": 52.61934156378601,
+    "drift": 6.070026495292858,
+    "severity": "LOW"
+  },
+  "BsmtUnfSF": {
+    "type": "numerical",
+    "reference_mean": 567.2404109589041,
+    "current_mean": 554.2949245541838,
+    "drift": 12.945486404720327,
+    "severity": "LOW"
+  },
+  "TotalBsmtSF": {
+    "type": "numerical",
+    "reference_mean": 1057.4294520547944,
+    "current_mean": 1046.1179698216736,
+    "drift": 11.311482233120842,
+    "severity": "LOW"
+  },
+  "Heating": {
+    "type": "categorical",
+    "reference_distribution": {
+      "GasA": 0.9780821917808219,
+      "GasW": 0.012328767123287671,
+      "Grav": 0.004794520547945206,
+      "Wall": 0.0027397260273972603,
+      "OthW": 0.0013698630136986301,
+      "Floor": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "GasA": 0.9910897875257025,
+      "GasW": 0.00616860863605209,
+      "Grav": 0.0013708019191226869,
+      "Wall": 0.0013708019191226869
+    }
+  },
+  "HeatingQC": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Ex": 0.5075342465753425,
+      "TA": 0.29315068493150687,
+      "Gd": 0.16506849315068492,
+      "Fa": 0.03356164383561644,
+      "Po": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "Ex": 0.5154215215901302,
+      "TA": 0.29403701165181634,
+      "Gd": 0.15969842357779301,
+      "Fa": 0.029472241261137764,
+      "Po": 0.0013708019191226869
+    }
+  },
+  "CentralAir": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Y": 0.934931506849315,
+      "N": 0.06506849315068493
+    },
+    "current_distribution": {
+      "Y": 0.9307745030843043,
+      "N": 0.06922549691569568
+    }
+  },
+  "Electrical": {
+    "type": "categorical",
+    "reference_distribution": {
+      "SBrkr": 0.914324880054832,
+      "FuseA": 0.06442769019876628,
+      "FuseF": 0.018505825908156272,
+      "FuseP": 0.00205620287868403,
+      "Mix": 0.0006854009595613434
+    },
+    "current_distribution": {
+      "SBrkr": 0.9163810829335161,
+      "FuseA": 0.06442769019876628,
+      "FuseF": 0.015764222069910898,
+      "FuseP": 0.003427004797806717
+    }
+  },
+  "1stFlrSF": {
+    "type": "numerical",
+    "reference_mean": 1162.626712328767,
+    "current_mean": 1156.534612748458,
+    "drift": 6.0920995803091955,
+    "severity": "LOW"
+  },
+  "2ndFlrSF": {
+    "type": "numerical",
+    "reference_mean": 346.99246575342465,
+    "current_mean": 325.96778615490064,
+    "drift": 21.024679598524017,
+    "severity": "LOW"
+  },
+  "LowQualFinSF": {
+    "type": "numerical",
+    "reference_mean": 5.844520547945206,
+    "current_mean": 3.5435229609321452,
+    "drift": 2.3009975870130606,
+    "severity": "LOW"
+  },
+  "GrLivArea": {
+    "type": "numerical",
+    "reference_mean": 1515.463698630137,
+    "current_mean": 1486.0459218642907,
+    "drift": 29.417776765846384,
+    "severity": "LOW"
+  },
+  "BsmtFullBath": {
+    "type": "numerical",
+    "reference_mean": 0.42534246575342466,
+    "current_mean": 0.4344543582704187,
+    "drift": 0.009111892516994013,
+    "severity": "LOW"
+  },
+  "BsmtHalfBath": {
+    "type": "numerical",
+    "reference_mean": 0.057534246575342465,
+    "current_mean": 0.06520247083047358,
+    "drift": 0.007668224255131112,
+    "severity": "LOW"
+  },
+  "FullBath": {
+    "type": "numerical",
+    "reference_mean": 1.5650684931506849,
+    "current_mean": 1.570938999314599,
+    "drift": 0.005870506163914158,
+    "severity": "LOW"
+  },
+  "HalfBath": {
+    "type": "numerical",
+    "reference_mean": 0.38287671232876713,
+    "current_mean": 0.3776559287183002,
+    "drift": 0.005220783610466906,
+    "severity": "LOW"
+  },
+  "BedroomAbvGr": {
+    "type": "numerical",
+    "reference_mean": 2.8664383561643834,
+    "current_mean": 2.8540095956134337,
+    "drift": 0.012428760550949658,
+    "severity": "LOW"
+  },
+  "KitchenAbvGr": {
+    "type": "numerical",
+    "reference_mean": 1.0465753424657533,
+    "current_mean": 1.0424948594928032,
+    "drift": 0.004080482972950161,
+    "severity": "LOW"
+  },
+  "KitchenQual": {
+    "type": "categorical",
+    "reference_distribution": {
+      "TA": 0.5034246575342466,
+      "Gd": 0.40136986301369865,
+      "Ex": 0.0684931506849315,
+      "Fa": 0.02671232876712329
+    },
+    "current_distribution": {
+      "TA": 0.5192043895747599,
+      "Gd": 0.38751714677640603,
+      "Ex": 0.0720164609053498,
+      "Fa": 0.021262002743484224
+    }
+  },
+  "TotRmsAbvGrd": {
+    "type": "numerical",
+    "reference_mean": 6.517808219178082,
+    "current_mean": 6.385195339273475,
+    "drift": 0.1326128799046078,
+    "severity": "LOW"
+  },
+  "Functional": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Typ": 0.9315068493150684,
+      "Min2": 0.023287671232876714,
+      "Min1": 0.021232876712328767,
+      "Mod": 0.010273972602739725,
+      "Maj1": 0.009589041095890411,
+      "Maj2": 0.003424657534246575,
+      "Sev": 0.0006849315068493151
+    },
+    "current_distribution": {
+      "Typ": 0.9313658201784488,
+      "Min2": 0.024708304735758406,
+      "Min1": 0.023335621139327384,
+      "Mod": 0.013726835964310227,
+      "Maj1": 0.0034317089910775567,
+      "Maj2": 0.002745367192862045,
+      "Sev": 0.0006863417982155113
+    }
+  },
+  "Fireplaces": {
+    "type": "numerical",
+    "reference_mean": 0.613013698630137,
+    "current_mean": 0.5812200137080192,
+    "drift": 0.03179368492211776,
+    "severity": "LOW"
+  },
+  "FireplaceQu": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Gd": 0.4935064935064935,
+      "TA": 0.4064935064935065,
+      "Fa": 0.04285714285714286,
+      "Ex": 0.03116883116883117,
+      "Po": 0.025974025974025976
+    },
+    "current_distribution": {
+      "Gd": 0.4993141289437586,
+      "TA": 0.38271604938271603,
+      "Fa": 0.056241426611796985,
+      "Po": 0.03566529492455418,
+      "Ex": 0.02606310013717421
+    }
+  },
+  "GarageType": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Attchd": 0.630891950688905,
+      "Detchd": 0.28063814358230604,
+      "BuiltIn": 0.06381435823060189,
+      "Basment": 0.013778100072516316,
+      "CarPort": 0.006526468455402465,
+      "2Types": 0.00435097897026831
+    },
+    "current_distribution": {
+      "Attchd": 0.6167751265365148,
+      "Detchd": 0.28344179320318147,
+      "BuiltIn": 0.07086044830079537,
+      "Basment": 0.012292118582791034,
+      "2Types": 0.012292118582791034,
+      "CarPort": 0.004338394793926247
+    }
+  },
+  "GarageYrBlt": {
+    "type": "numerical",
+    "reference_mean": 1978.5061638868744,
+    "current_mean": 1977.7212165097756,
+    "drift": 0.784947377098888,
+    "severity": "LOW"
+  },
+  "GarageFinish": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Unf": 0.43872371283538797,
+      "RFn": 0.3060188542422045,
+      "Fin": 0.25525743292240755
+    },
+    "current_distribution": {
+      "Unf": 0.4525706010137581,
+      "RFn": 0.2816799420709631,
+      "Fin": 0.2657494569152788
+    }
+  },
+  "GarageCars": {
+    "type": "numerical",
+    "reference_mean": 1.7671232876712328,
+    "current_mean": 1.7661179698216736,
+    "drift": 0.0010053178495592618,
+    "severity": "LOW"
+  },
+  "GarageArea": {
+    "type": "numerical",
+    "reference_mean": 472.9801369863014,
+    "current_mean": 472.76886145404666,
+    "drift": 0.2112755322547173,
+    "severity": "LOW"
+  },
+  "GarageQual": {
+    "type": "categorical",
+    "reference_distribution": {
+      "TA": 0.9506889050036258,
+      "Fa": 0.03480783176214648,
+      "Gd": 0.01015228426395939,
+      "Ex": 0.002175489485134155,
+      "Po": 0.002175489485134155
+    },
+    "current_distribution": {
+      "TA": 0.9362780593772628,
+      "Fa": 0.05503258508327299,
+      "Gd": 0.00724112961622013,
+      "Po": 0.001448225923244026
+    }
+  },
+  "GarageCond": {
+    "type": "categorical",
+    "reference_distribution": {
+      "TA": 0.9615663524292966,
+      "Fa": 0.025380710659898477,
+      "Gd": 0.006526468455402465,
+      "Po": 0.005076142131979695,
+      "Ex": 0.0014503263234227702
+    },
+    "current_distribution": {
+      "TA": 0.9616220130340333,
+      "Fa": 0.028240405503258507,
+      "Po": 0.005068790731354091,
+      "Gd": 0.004344677769732078,
+      "Ex": 0.000724112961622013
+    }
+  },
+  "PavedDrive": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Y": 0.9178082191780822,
+      "N": 0.06164383561643835,
+      "P": 0.02054794520547945
+    },
+    "current_distribution": {
+      "Y": 0.8917066483893078,
+      "N": 0.08636052090472926,
+      "P": 0.02193283070596299
+    }
+  },
+  "WoodDeckSF": {
+    "type": "numerical",
+    "reference_mean": 94.2445205479452,
+    "current_mean": 93.17477724468814,
+    "drift": 1.0697433032570558,
+    "severity": "LOW"
+  },
+  "OpenPorchSF": {
+    "type": "numerical",
+    "reference_mean": 46.66027397260274,
+    "current_mean": 48.3139136394791,
+    "drift": 1.6536396668763587,
+    "severity": "LOW"
+  },
+  "EnclosedPorch": {
+    "type": "numerical",
+    "reference_mean": 21.954109589041096,
+    "current_mean": 24.24331734064428,
+    "drift": 2.2892077516031826,
+    "severity": "LOW"
+  },
+  "3SsnPorch": {
+    "type": "numerical",
+    "reference_mean": 3.4095890410958902,
+    "current_mean": 1.794379712131597,
+    "drift": 1.6152093289642933,
+    "severity": "LOW"
+  },
+  "ScreenPorch": {
+    "type": "numerical",
+    "reference_mean": 15.060958904109588,
+    "current_mean": 17.064427690198766,
+    "drift": 2.0034687860891776,
+    "severity": "LOW"
+  },
+  "PoolArea": {
+    "type": "numerical",
+    "reference_mean": 2.758904109589041,
+    "current_mean": 1.7443454420836189,
+    "drift": 1.0145586675054223,
+    "severity": "LOW"
+  },
+  "PoolQC": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Gd": 0.42857142857142855,
+      "Ex": 0.2857142857142857,
+      "Fa": 0.2857142857142857
+    },
+    "current_distribution": {
+      "Ex": 0.6666666666666666,
+      "Gd": 0.3333333333333333
+    }
+  },
+  "Fence": {
+    "type": "categorical",
+    "reference_distribution": {
+      "MnPrv": 0.5587188612099644,
+      "GdPrv": 0.2099644128113879,
+      "GdWo": 0.19217081850533807,
+      "MnWw": 0.03914590747330961
+    },
+    "current_distribution": {
+      "MnPrv": 0.593103448275862,
+      "GdPrv": 0.20344827586206896,
+      "GdWo": 0.2,
+      "MnWw": 0.0034482758620689655
+    }
+  },
+  "MiscFeature": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Shed": 0.9074074074074074,
+      "Gar2": 0.037037037037037035,
+      "Othr": 0.037037037037037035,
+      "TenC": 0.018518518518518517
+    },
+    "current_distribution": {
+      "Shed": 0.9019607843137255,
+      "Gar2": 0.058823529411764705,
+      "Othr": 0.0392156862745098
+    }
+  },
+  "MiscVal": {
+    "type": "numerical",
+    "reference_mean": 43.489041095890414,
+    "current_mean": 58.16792323509253,
+    "drift": 14.678882139202116,
+    "severity": "LOW"
+  },
+  "MoSold": {
+    "type": "numerical",
+    "reference_mean": 6.321917808219178,
+    "current_mean": 6.104180945853324,
+    "drift": 0.21773686236585377,
+    "severity": "LOW"
+  },
+  "YrSold": {
+    "type": "numerical",
+    "reference_mean": 2007.8157534246575,
+    "current_mean": 2007.7697052775875,
+    "drift": 0.04604814706999605,
+    "severity": "LOW"
+  },
+  "SaleType": {
+    "type": "categorical",
+    "reference_distribution": {
+      "WD": 0.8678082191780822,
+      "New": 0.08356164383561644,
+      "COD": 0.02945205479452055,
+      "ConLD": 0.0061643835616438354,
+      "ConLI": 0.003424657534246575,
+      "ConLw": 0.003424657534246575,
+      "CWD": 0.0027397260273972603,
+      "Oth": 0.002054794520547945,
+      "Con": 0.0013698630136986301
+    },
+    "current_distribution": {
+      "WD": 0.8628257887517147,
+      "New": 0.08024691358024691,
+      "COD": 0.03017832647462277,
+      "ConLD": 0.011659807956104253,
+      "CWD": 0.0054869684499314125,
+      "Oth": 0.0027434842249657062,
+      "ConLI": 0.0027434842249657062,
+      "Con": 0.00205761316872428,
+      "ConLw": 0.00205761316872428
+    }
+  },
+  "SaleCondition": {
+    "type": "categorical",
+    "reference_distribution": {
+      "Normal": 0.8205479452054795,
+      "Partial": 0.08561643835616438,
+      "Abnorml": 0.06917808219178082,
+      "Family": 0.0136986301369863,
+      "Alloca": 0.00821917808219178,
+      "AdjLand": 0.0027397260273972603
+    },
+    "current_distribution": {
+      "Normal": 0.8252227553118574,
+      "Partial": 0.0822481151473612,
+      "Abnorml": 0.06100068540095956,
+      "Family": 0.01782042494859493,
+      "Alloca": 0.00822481151473612,
+      "AdjLand": 0.0054832076764907475
+    }
+  },
+  "TotalSF": {
+    "type": "numerical",
+    "reference_mean": 2567.0486301369865,
+    "current_mean": 2529.022633744856,
+    "drift": 38.02599639213031,
+    "severity": "LOW"
+  },
+  "HouseAge": {
+    "type": "numerical",
+    "reference_mean": 36.54794520547945,
+    "current_mean": 36.41192597669637,
+    "drift": 0.13601922878308415,
+    "severity": "LOW"
+  },
+  "RemodelAge": {
+    "type": "numerical",
+    "reference_mean": 22.95,
+    "current_mean": 24.10692254969157,
+    "drift": 1.156922549691572,
+    "severity": "LOW"
+  },
+  "TotalBathrooms": {
+    "type": "numerical",
+    "reference_mean": 2.210616438356164,
+    "current_mean": 2.2261496225120108,
+    "drift": 0.015533184155846591,
+    "severity": "LOW"
+  },
+  "TotalPorchSF": {
+    "type": "numerical",
+    "reference_mean": 87.08493150684932,
+    "current_mean": 91.41603838245373,
+    "drift": 4.331106875604419,
+    "severity": "LOW"
+  },
+  "HasGarage": {
+    "type": "numerical",
+    "reference_mean": 0.9445205479452055,
+    "current_mean": 0.9472241261137766,
+    "drift": 0.0027035781685711413,
+    "severity": "LOW"
+  },
+  "HasFireplace": {
+    "type": "numerical",
+    "reference_mean": 0.5273972602739726,
+    "current_mean": 0.4996572995202193,
+    "drift": 0.02773996075375329,
+    "severity": "LOW"
+  }
+}

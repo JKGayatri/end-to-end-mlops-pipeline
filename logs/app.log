@@ -1,0 +1,329 @@
+2026-05-03 15:47:52,510 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 15:47:52,511 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 15:47:52,512 - INFO -  * Restarting with stat
+2026-05-03 15:47:55,241 - WARNING -  * Debugger is active!
+2026-05-03 15:47:55,243 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 15:50:42,652 - INFO -  * Detected change in 'D:\\Handson\\House_Price_ML_adv\\app.py', reloading
+2026-05-03 15:50:43,009 - INFO -  * Restarting with stat
+2026-05-03 15:50:46,693 - WARNING -  * Debugger is active!
+2026-05-03 15:50:46,697 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 15:50:56,929 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 15:50:56,930 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 15:50:56,931 - INFO -  * Restarting with stat
+2026-05-03 15:50:59,402 - WARNING -  * Debugger is active!
+2026-05-03 15:50:59,404 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 15:51:59,338 - INFO - 127.0.0.1 - - [03/May/2026 15:51:59] "GET / HTTP/1.1" 200 -
+2026-05-03 15:51:59,405 - INFO - 127.0.0.1 - - [03/May/2026 15:51:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-03 15:53:34,331 - INFO - 127.0.0.1 - - [03/May/2026 15:53:34] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2026-05-03 15:58:44,402 - INFO - 127.0.0.1 - - [03/May/2026 15:58:44] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2026-05-03 16:07:34,976 - INFO - Input Data: {'OverallQual': 7, 'GrLivArea': 1800, 'GarageCars': 2, 'TotalBsmtSF': 900, 'YearBuilt': 2005, 'FullBath': 2, 'BedroomAbvGr': 3}
+2026-05-03 16:07:34,982 - ERROR - Error: columns are missing: {'KitchenQual', 'TotRmsAbvGrd', 'SaleCondition', 'TotalBathrooms', 'BsmtFinSF1', 'Neighborhood', 'MoSold', 'Id', 'BsmtFinSF2', 'MSZoning', 'MasVnrType', 'YearRemodAdd', 'MiscFeature', 'Electrical', 'BsmtExposure', 'Street', 'OpenPorchSF', '2ndFlrSF', '1stFlrSF', 'RoofStyle', 'GarageType', 'OverallCond', 'Heating', 'BldgType', 'LotConfig', 'LandSlope', 'HouseStyle', 'EnclosedPorch', 'HouseAge', 'Fireplaces', 'Fence', 'SaleType', 'Exterior2nd', 'Exterior1st', 'BsmtFinType1', 'PavedDrive', 'BsmtFinType2', 'Condition1', 'LowQualFinSF', 'PoolArea', 'TotalPorchSF', 'BsmtCond', 'LotArea', 'KitchenAbvGr', 'GarageYrBlt', 'Condition2', 'BsmtQual', 'HeatingQC', 'Foundation', 'GarageQual', 'LandContour', 'ScreenPorch', 'HasGarage', 'BsmtUnfSF', 'LotShape', 'GarageCond', 'RemodelAge', 'CentralAir', 'RoofMatl', 'FireplaceQu', 'PoolQC', 'MiscVal', 'MSSubClass', 'WoodDeckSF', 'Functional', 'BsmtFullBath', 'TotalSF', 'Alley', 'ExterQual', 'ExterCond', '3SsnPorch', 'Utilities', 'GarageArea', 'MasVnrArea', 'BsmtHalfBath', 'GarageFinish', 'HalfBath', 'YrSold', 'HasFireplace', 'LotFrontage'}
+2026-05-03 16:07:34,983 - INFO - 127.0.0.1 - - [03/May/2026 16:07:34] "POST /predict HTTP/1.1" 200 -
+2026-05-03 16:13:12,723 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 16:13:12,723 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 16:13:12,725 - INFO -  * Restarting with stat
+2026-05-03 16:13:15,785 - WARNING -  * Debugger is active!
+2026-05-03 16:13:15,787 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:13:41,272 - INFO - Input Data: {'OverallQual': 7, 'GrLivArea': 1800, 'GarageCars': 2, 'TotalBsmtSF': 900, 'YearBuilt': 2005, 'FullBath': 2, 'BedroomAbvGr': 3}
+2026-05-03 16:13:41,275 - ERROR - Error: columns are missing: {'GarageArea', 'BsmtFinSF2', 'Fence', 'ExterQual', 'MSSubClass', 'TotalSF', 'Id', 'Street', 'RoofMatl', 'LotFrontage', 'MSZoning', 'HeatingQC', 'KitchenQual', 'Foundation', 'BsmtFullBath', 'MasVnrArea', 'Neighborhood', 'LotConfig', 'GarageType', 'PavedDrive', 'TotalPorchSF', 'HasFireplace', 'RoofStyle', 'TotalBathrooms', 'TotRmsAbvGrd', 'HasGarage', 'SaleType', 'MasVnrType', '1stFlrSF', 'KitchenAbvGr', 'Utilities', 'EnclosedPorch', 'Electrical', 'LotShape', '3SsnPorch', 'MoSold', 'OverallCond', 'LandSlope', 'GarageFinish', 'GarageQual', 'BsmtExposure', 'CentralAir', 'HalfBath', 'Condition1', 'Exterior2nd', 'OpenPorchSF', 'Functional', 'MiscFeature', 'GarageCond', 'HouseStyle', '2ndFlrSF', 'YearRemodAdd', 'SaleCondition', 'Fireplaces', 'Exterior1st', 'ExterCond', 'Alley', 'BsmtFinType1', 'BsmtUnfSF', 'PoolArea', 'LotArea', 'FireplaceQu', 'BsmtFinType2', 'GarageYrBlt', 'BldgType', 'HouseAge', 'LowQualFinSF', 'RemodelAge', 'Condition2', 'LandContour', 'Heating', 'BsmtQual', 'BsmtCond', 'PoolQC', 'WoodDeckSF', 'YrSold', 'BsmtHalfBath', 'ScreenPorch', 'BsmtFinSF1', 'MiscVal'}
+2026-05-03 16:13:41,276 - INFO - 127.0.0.1 - - [03/May/2026 16:13:41] "POST /predict HTTP/1.1" 200 -
+2026-05-03 16:13:54,249 - INFO - Input Data: {'OverallQual': 7, 'GrLivArea': 1800, 'GarageCars': 2, 'TotalBsmtSF': 900}
+2026-05-03 16:13:54,251 - ERROR - Error: columns are missing: {'GarageArea', 'BsmtFinSF2', 'Fence', 'ExterQual', 'MSSubClass', 'TotalSF', 'Id', 'Street', 'RoofMatl', 'LotFrontage', 'MSZoning', 'HeatingQC', 'KitchenQual', 'Foundation', 'BsmtFullBath', 'FullBath', 'MasVnrArea', 'Neighborhood', 'LotConfig', 'GarageType', 'PavedDrive', 'TotalPorchSF', 'HasFireplace', 'RoofStyle', 'TotalBathrooms', 'TotRmsAbvGrd', 'HasGarage', 'SaleType', 'MasVnrType', '1stFlrSF', 'KitchenAbvGr', 'Utilities', 'EnclosedPorch', 'Electrical', 'LotShape', '3SsnPorch', 'MoSold', 'BedroomAbvGr', 'OverallCond', 'LandSlope', 'GarageFinish', 'GarageQual', 'BsmtExposure', 'CentralAir', 'HalfBath', 'Condition1', 'Exterior2nd', 'OpenPorchSF', 'Functional', 'MiscFeature', 'GarageCond', 'HouseStyle', '2ndFlrSF', 'YearRemodAdd', 'SaleCondition', 'Fireplaces', 'Exterior1st', 'ExterCond', 'Alley', 'BsmtFinType1', 'BsmtUnfSF', 'PoolArea', 'LotArea', 'FireplaceQu', 'BsmtFinType2', 'GarageYrBlt', 'BldgType', 'HouseAge', 'LowQualFinSF', 'YearBuilt', 'RemodelAge', 'Condition2', 'LandContour', 'Heating', 'BsmtQual', 'BsmtCond', 'PoolQC', 'WoodDeckSF', 'YrSold', 'BsmtHalfBath', 'ScreenPorch', 'BsmtFinSF1', 'MiscVal'}
+2026-05-03 16:13:54,252 - INFO - 127.0.0.1 - - [03/May/2026 16:13:54] "POST /predict HTTP/1.1" 200 -
+2026-05-03 16:16:24,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 16:16:24,035 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 16:16:24,038 - INFO -  * Restarting with stat
+2026-05-03 16:16:26,843 - WARNING -  * Debugger is active!
+2026-05-03 16:16:26,845 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:17:12,595 - INFO -  * Detected change in 'D:\\Handson\\House_Price_ML_adv\\src\\predict.py', reloading
+2026-05-03 16:17:13,049 - INFO -  * Restarting with stat
+2026-05-03 16:17:15,744 - WARNING -  * Debugger is active!
+2026-05-03 16:17:15,746 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:17:45,370 - INFO - Input Data: {'OverallQual': 7, 'GrLivArea': 1800, 'GarageCars': 2, 'TotalBsmtSF': 900}
+2026-05-03 16:17:45,372 - ERROR - Error: columns are missing: {'1stFlrSF', 'BsmtFinSF2', 'Neighborhood', 'LotConfig', 'BsmtQual', 'BsmtFinType1', '2ndFlrSF', 'Fireplaces', 'Alley', 'BsmtCond', 'YearBuilt', 'TotalSF', 'BsmtFinSF1', 'TotRmsAbvGrd', 'LotFrontage', '3SsnPorch', 'FullBath', 'BldgType', 'HeatingQC', 'Foundation', 'YrSold', 'GarageFinish', 'KitchenQual', 'HasGarage', 'Street', 'BsmtExposure', 'TotalBathrooms', 'LotShape', 'GarageYrBlt', 'MasVnrType', 'MiscVal', 'Heating', 'Condition2', 'OverallCond', 'BedroomAbvGr', 'RemodelAge', 'RoofMatl', 'EnclosedPorch', 'LandContour', 'Utilities', 'RoofStyle', 'Exterior1st', 'BsmtFullBath', 'ExterQual', 'MSSubClass', 'SaleCondition', 'FireplaceQu', 'MiscFeature', 'ScreenPorch', 'Functional', 'HalfBath', 'Condition1', 'GarageArea', 'LandSlope', 'Fence', 'MoSold', 'LotArea', 'CentralAir', 'GarageQual', 'Electrical', 'KitchenAbvGr', 'BsmtFinType2', 'MasVnrArea', 'BsmtUnfSF', 'TotalPorchSF', 'HasFireplace', 'GarageCond', 'HouseAge', 'Id', 'ExterCond', 'GarageType', 'PoolArea', 'PavedDrive', 'MSZoning', 'Exterior2nd', 'BsmtHalfBath', 'WoodDeckSF', 'LowQualFinSF', 'YearRemodAdd', 'SaleType', 'OpenPorchSF', 'HouseStyle', 'PoolQC'}
+2026-05-03 16:17:45,373 - INFO - 127.0.0.1 - - [03/May/2026 16:17:45] "POST /predict HTTP/1.1" 200 -
+2026-05-03 16:19:53,977 - INFO -  * Detected change in 'D:\\Handson\\House_Price_ML_adv\\src\\predict.py', reloading
+2026-05-03 16:19:54,506 - INFO -  * Restarting with stat
+2026-05-03 16:19:57,296 - WARNING -  * Debugger is active!
+2026-05-03 16:19:57,298 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:20:40,493 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 16:20:40,493 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 16:20:40,494 - INFO -  * Restarting with stat
+2026-05-03 16:20:43,084 - WARNING -  * Debugger is active!
+2026-05-03 16:20:43,087 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:21:52,167 - INFO - Input Data: {'OverallQual': 7, 'GrLivArea': 1800, 'GarageCars': 2, 'TotalBsmtSF': 900}
+2026-05-03 16:21:52,259 - INFO - Prediction: {'predicted_price_log': 82049.37520206599}
+2026-05-03 16:21:52,260 - INFO - 127.0.0.1 - - [03/May/2026 16:21:52] "POST /predict HTTP/1.1" 200 -
+2026-05-03 16:24:46,670 - INFO -  * Detected change in 'D:\\Handson\\House_Price_ML_adv\\app.py', reloading
+2026-05-03 16:24:47,098 - INFO -  * Restarting with stat
+2026-05-03 16:24:50,305 - WARNING -  * Debugger is active!
+2026-05-03 16:24:50,310 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:25:55,841 - INFO -  * Detected change in 'D:\\Handson\\House_Price_ML_adv\\app.py', reloading
+2026-05-03 16:25:56,255 - INFO -  * Restarting with stat
+2026-05-03 16:25:59,279 - WARNING -  * Debugger is active!
+2026-05-03 16:25:59,281 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:26:10,579 - INFO -  * Detected change in 'D:\\Handson\\House_Price_ML_adv\\app.py', reloading
+2026-05-03 16:26:10,979 - INFO -  * Restarting with stat
+2026-05-03 16:26:27,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 16:26:27,588 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 16:26:27,594 - INFO -  * Restarting with stat
+2026-05-03 16:26:30,687 - WARNING -  * Debugger is active!
+2026-05-03 16:26:30,690 - INFO -  * Debugger PIN: 115-728-543
+2026-05-03 16:26:54,080 - INFO - Input Data: {'OverallQual': 7, 'GrLivArea': 1800, 'GarageCars': 2, 'TotalBsmtSF': 1200}
+2026-05-03 16:26:54,168 - INFO - Prediction: {'predicted_price': 82035.6881132321}
+2026-05-03 16:26:54,169 - INFO - 127.0.0.1 - - [03/May/2026 16:26:54] "POST /predict HTTP/1.1" 200 -
+2026-05-04 07:01:39,932 - __main__ - INFO - Loading training data...
+2026-05-04 07:01:39,978 - __main__ - INFO - Applying feature engineering...
+2026-05-04 07:01:39,985 - __main__ - INFO - Splitting dataset...
+2026-05-04 07:01:40,002 - __main__ - INFO - Starting model training...
+2026-05-04 07:02:05,209 - __main__ - INFO - Training completed
+2026-05-04 07:02:05,210 - __main__ - INFO - Best Params: {'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 200}
+2026-05-04 07:02:05,210 - __main__ - INFO - Best CV Score: 0.9030553365336965
+2026-05-04 07:02:05,228 - __main__ - INFO - Final RMSE: 0.09003084809746491
+2026-05-04 07:02:05,229 - __main__ - INFO - Final R2: 0.9565650244138182
+2026-05-04 07:02:05,229 - __main__ - INFO - Saving model...
+2026-05-04 07:02:05,244 - __main__ - INFO - Model saved successfully!
+2026-05-04 07:03:06,013 - __main__ - INFO - Loading model...
+2026-05-04 07:03:07,437 - __main__ - INFO - Loading test data...
+2026-05-04 07:03:07,467 - __main__ - INFO - Applying feature engineering...
+2026-05-04 07:03:07,477 - __main__ - INFO - Running predictions...
+2026-05-04 07:03:07,520 - __main__ - INFO - Saving predictions...
+2026-05-04 07:03:35,717 - __main__ - INFO - Loading model...
+2026-05-04 07:03:37,006 - __main__ - INFO - Loading test data...
+2026-05-04 07:03:37,028 - __main__ - INFO - Applying feature engineering...
+2026-05-04 07:03:37,035 - __main__ - INFO - Running predictions...
+2026-05-04 07:03:37,098 - __main__ - INFO - Saving predictions...
+2026-05-04 07:03:37,145 - __main__ - INFO - Batch prediction completed successfully!
+2026-05-04 15:35:07,565 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:37:49,435 - __main__ - INFO - Loading training data...
+2026-05-04 15:37:49,511 - __main__ - INFO - Applying feature engineering...
+2026-05-04 15:37:49,519 - __main__ - INFO - Splitting dataset...
+2026-05-04 15:37:49,527 - __main__ - INFO - Schema saved!
+2026-05-04 15:37:49,578 - __main__ - INFO - Reference data saved!
+2026-05-04 15:37:49,592 - __main__ - INFO - Training stats saved!
+2026-05-04 15:37:49,608 - __main__ - INFO - Starting model training...
+2026-05-04 15:38:16,644 - __main__ - INFO - Training completed
+2026-05-04 15:38:16,644 - __main__ - INFO - Best Params: {'model__learning_rate': 0.1, 'model__max_depth': 2, 'model__n_estimators': 200}
+2026-05-04 15:38:16,644 - __main__ - INFO - Best CV Score: 0.9030999129707407
+2026-05-04 15:38:16,669 - __main__ - INFO - Final RMSE: 0.09003084809746491
+2026-05-04 15:38:16,669 - __main__ - INFO - Final R2: 0.9565650244138182
+2026-05-04 15:38:16,669 - __main__ - INFO - Saving model...
+2026-05-04 15:38:16,682 - __main__ - INFO - Model saved successfully!
+2026-05-04 15:38:37,875 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:40:46,695 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:41:30,299 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:43:51,753 - main - INFO - Received batch file: test.csv
+2026-05-04 15:43:51,755 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 15:43:51,771 - src.batch_predict - INFO - Loading test data...
+2026-05-04 15:43:51,914 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 15:44:10,960 - main - ERROR - Batch prediction failed: 'Report' object has no attribute 'save_html'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 87, in predict_batch
+    result = run_batch_prediction(temp_input, output_path, model, columns)
+  File "D:\Handson\House_Price_ML_adv\src\batch_predict.py", line 46, in run_batch_prediction
+    report_path = generate_drift_report(
+        reference_df=reference_df,
+        current_df=test_df
+    )
+  File "D:\Handson\House_Price_ML_adv\src\evidently_report.py", line 29, in generate_drift_report
+    report.save_html(output_path)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'Report' object has no attribute 'save_html'
+2026-05-04 15:47:54,908 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:48:02,018 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:48:21,176 - main - INFO - Received batch file: test.csv
+2026-05-04 15:48:21,177 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 15:48:21,195 - src.batch_predict - INFO - Loading test data...
+2026-05-04 15:48:21,313 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 15:48:32,290 - main - ERROR - Batch prediction failed: 'Report' object has no attribute 'save'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 87, in predict_batch
+    result = run_batch_prediction(temp_input, output_path, model, columns)
+  File "D:\Handson\House_Price_ML_adv\src\batch_predict.py", line 46, in run_batch_prediction
+    report_path = generate_drift_report(
+        reference_df=reference_df,
+        current_df=test_df
+    )
+  File "D:\Handson\House_Price_ML_adv\src\evidently_report.py", line 29, in generate_drift_report
+    report.save(output_path)
+    ^^^^^^^^^^^
+AttributeError: 'Report' object has no attribute 'save'
+2026-05-04 15:56:55,681 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:57:02,868 - src.predict - INFO - Loading model at startup...
+2026-05-04 15:57:15,721 - main - INFO - Received batch file: test.csv
+2026-05-04 15:57:15,723 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 15:57:15,760 - src.batch_predict - INFO - Loading test data...
+2026-05-04 15:57:15,917 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 15:57:35,146 - main - ERROR - Batch prediction failed: 'Report' object has no attribute 'get_html'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 87, in predict_batch
+    result = run_batch_prediction(temp_input, output_path, model, columns)
+  File "D:\Handson\House_Price_ML_adv\src\batch_predict.py", line 46, in run_batch_prediction
+    report_path = generate_drift_report(
+        reference_df=reference_df,
+        current_df=test_df
+    )
+  File "D:\Handson\House_Price_ML_adv\src\evidently_report.py", line 30, in generate_drift_report
+    f.write(report.get_html())
+            ^^^^^^^^^^^^^^^
+AttributeError: 'Report' object has no attribute 'get_html'
+2026-05-04 16:05:18,995 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:06:41,780 - main - INFO - Received batch file: test.csv
+2026-05-04 16:06:41,782 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 16:06:41,796 - src.batch_predict - INFO - Loading test data...
+2026-05-04 16:06:41,911 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 16:07:00,836 - main - ERROR - Batch prediction failed: 'Report' object has no attribute 'as_dict'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 87, in predict_batch
+    result = run_batch_prediction(temp_input, output_path, model, columns)
+  File "D:\Handson\House_Price_ML_adv\src\batch_predict.py", line 46, in run_batch_prediction
+    report_path = generate_drift_report(
+        reference_df=reference_df,
+        current_df=test_df
+    )
+  File "D:\Handson\House_Price_ML_adv\src\evidently_report.py", line 30, in generate_drift_report
+    report_dict = report.as_dict()
+                  ^^^^^^^^^^^^^^
+AttributeError: 'Report' object has no attribute 'as_dict'
+2026-05-04 16:10:03,223 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:10:13,509 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:10:29,543 - main - INFO - Received batch file: test.csv
+2026-05-04 16:10:29,544 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 16:10:29,567 - src.batch_predict - INFO - Loading test data...
+2026-05-04 16:10:29,690 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 16:10:48,644 - main - ERROR - Batch prediction failed: 'Report' object has no attribute 'json'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 87, in predict_batch
+    result = run_batch_prediction(temp_input, output_path, model, columns)
+  File "D:\Handson\House_Price_ML_adv\src\batch_predict.py", line 46, in run_batch_prediction
+    report_path = generate_drift_report(
+        reference_df=reference_df,
+        current_df=test_df
+    )
+  File "D:\Handson\House_Price_ML_adv\src\evidently_report.py", line 30, in generate_drift_report
+    report_json = report.json()
+                  ^^^^^^^^^^^
+AttributeError: 'Report' object has no attribute 'json'
+2026-05-04 16:27:55,220 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:29:16,026 - main - INFO - Received batch file: test.csv
+2026-05-04 16:29:16,027 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 16:29:16,040 - src.batch_predict - INFO - Loading test data...
+2026-05-04 16:29:16,157 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 16:29:16,236 - main - ERROR - Batch prediction failed: Cannot perform reduction 'mean' with string dtype
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 87, in predict_batch
+    result = run_batch_prediction(temp_input, output_path, model, columns)
+  File "D:\Handson\House_Price_ML_adv\src\batch_predict.py", line 46, in run_batch_prediction
+    report_path = generate_drift_report(
+        reference_df=reference_df,
+        current_df=test_df
+    )
+  File "D:\Handson\House_Price_ML_adv\src\evidently_report.py", line 22, in generate_drift_report
+    ref_mean = reference_df[col].mean()
+  File "D:\Handson\House_Price_ML_adv\venv\Lib\site-packages\pandas\util\_decorators.py", line 336, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Handson\House_Price_ML_adv\venv\Lib\site-packages\pandas\core\series.py", line 8113, in mean
+    return NDFrame.mean(
+           ~~~~~~~~~~~~^
+        self, axis=axis, skipna=skipna, numeric_only=numeric_only, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Handson\House_Price_ML_adv\venv\Lib\site-packages\pandas\core\generic.py", line 11831, in mean
+    return self._stat_function(
+           ~~~~~~~~~~~~~~~~~~~^
+        "mean", nanops.nanmean, axis, skipna, numeric_only, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Handson\House_Price_ML_adv\venv\Lib\site-packages\pandas\core\generic.py", line 11785, in _stat_function
+    return self._reduce(
+           ~~~~~~~~~~~~^
+        func, name=name, axis=axis, skipna=skipna, numeric_only=numeric_only
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Handson\House_Price_ML_adv\venv\Lib\site-packages\pandas\core\series.py", line 7480, in _reduce
+    result = delegate._reduce(name, skipna=skipna, **kwds)
+  File "D:\Handson\House_Price_ML_adv\venv\Lib\site-packages\pandas\core\arrays\string_arrow.py", line 561, in _reduce
+    raise TypeError(f"Cannot perform reduction '{name}' with string dtype")
+TypeError: Cannot perform reduction 'mean' with string dtype
+2026-05-04 16:33:09,180 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:33:25,292 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:33:35,841 - main - INFO - Received batch file: test.csv
+2026-05-04 16:33:35,843 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 16:33:35,855 - src.batch_predict - INFO - Loading test data...
+2026-05-04 16:33:35,959 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 16:33:36,181 - src.batch_predict - WARNING - Data drift detected: {'Id': {'z_score': np.float64(3.4617299579411744), 'status': 'DRIFT DETECTED'}}
+2026-05-04 16:33:36,187 - src.batch_predict - INFO - Running predictions...
+2026-05-04 16:33:36,289 - src.batch_predict - INFO - Saving predictions...
+2026-05-04 16:33:36,387 - src.batch_predict - INFO - Batch prediction completed successfully!
+2026-05-04 16:33:36,390 - main - ERROR - Batch prediction failed: 'summary'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 92, in predict_batch
+    "drift_summary": result["drift"]["summary"],
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'summary'
+2026-05-04 16:52:26,079 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:52:29,136 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:53:04,193 - main - INFO - Received batch file: test.csv
+2026-05-04 16:53:04,195 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 16:53:04,208 - src.batch_predict - INFO - Loading test data...
+2026-05-04 16:53:04,307 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 16:53:04,576 - src.batch_predict - WARNING - Data drift detected: {'Id': {'z_score': np.float64(3.4617299579411744), 'status': 'DRIFT DETECTED'}}
+2026-05-04 16:53:04,580 - src.batch_predict - INFO - Running predictions...
+2026-05-04 16:53:04,680 - src.batch_predict - INFO - Saving predictions...
+2026-05-04 16:53:04,775 - src.batch_predict - INFO - Batch prediction completed successfully!
+2026-05-04 16:53:04,777 - main - ERROR - Batch prediction failed: 'summary'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 92, in predict_batch
+    "drift_summary": result["drift"]["summary"],
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'summary'
+2026-05-04 16:53:19,530 - src.predict - INFO - Loading model at startup...
+2026-05-04 16:53:39,366 - main - INFO - Received batch file: test.csv
+2026-05-04 16:53:39,368 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 16:53:39,384 - src.batch_predict - INFO - Loading test data...
+2026-05-04 16:53:39,483 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 16:53:39,660 - src.batch_predict - WARNING - Data drift detected: {'Id': {'z_score': np.float64(3.4617299579411744), 'status': 'DRIFT DETECTED'}}
+2026-05-04 16:53:39,664 - src.batch_predict - INFO - Running predictions...
+2026-05-04 16:53:39,738 - src.batch_predict - INFO - Saving predictions...
+2026-05-04 16:53:39,810 - src.batch_predict - INFO - Batch prediction completed successfully!
+2026-05-04 16:53:39,811 - main - ERROR - Batch prediction failed: 'summary'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 92, in predict_batch
+    "drift_summary": result["drift"]["summary"],
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'summary'
+2026-05-04 17:01:04,252 - src.predict - INFO - Loading model at startup...
+2026-05-04 17:05:28,568 - src.predict - INFO - Loading model at startup...
+2026-05-04 17:06:13,464 - main - INFO - Received batch file: test.csv
+2026-05-04 17:06:13,466 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 17:06:13,486 - src.batch_predict - INFO - Loading test data...
+2026-05-04 17:06:13,612 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 17:06:13,670 - src.batch_predict - WARNING - Data drift detected: {'Id': {'z_score': np.float64(3.4617299579411744), 'status': 'DRIFT DETECTED'}}
+2026-05-04 17:06:13,675 - src.batch_predict - INFO - Running predictions...
+2026-05-04 17:06:13,767 - src.batch_predict - INFO - Saving predictions...
+2026-05-04 17:06:13,861 - src.batch_predict - INFO - Batch prediction completed successfully!
+2026-05-04 17:06:13,865 - main - ERROR - Batch prediction failed: 'summary'
+Traceback (most recent call last):
+  File "D:\Handson\House_Price_ML_adv\main.py", line 92, in predict_batch
+    "drift_summary": result["drift"]["summary"],
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'summary'
+2026-05-04 17:09:58,657 - src.predict - INFO - Loading model at startup...
+2026-05-04 17:13:51,762 - src.predict - INFO - Loading model at startup...
+2026-05-04 17:16:13,558 - main - INFO - Received batch file: test.csv
+2026-05-04 17:16:13,560 - main - INFO - Loading model from models/pipeline.pkl
+2026-05-04 17:16:13,571 - src.batch_predict - INFO - Loading test data...
+2026-05-04 17:16:13,684 - src.batch_predict - INFO - Applying feature engineering...
+2026-05-04 17:16:13,746 - src.batch_predict - WARNING - Data drift detected: {'Id': {'z_score': np.float64(3.4617299579411744), 'status': 'DRIFT DETECTED'}}
+2026-05-04 17:16:13,751 - src.batch_predict - INFO - Running predictions...
+2026-05-04 17:16:13,851 - src.batch_predict - INFO - Saving predictions...
+2026-05-04 17:16:13,938 - src.batch_predict - INFO - Batch prediction completed successfully!
